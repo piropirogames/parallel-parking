@@ -1,0 +1,14 @@
+# ゲーム全体設定(スキーマ: docs/01-architecture.md §12)。
+game:
+  id: drive_simulator
+  name: Drive Simulator
+  version: "1.1.0" # 数値と解釈されないよう引用符必須(pubspec.yamlのversionと揃える)
+
+debug:
+  enabled: true # リリースビルドでは強制無効化される
+
+# 有効化するプラグインID(未使用。プラグイン導入時に追加)
+plugins: []
+
+# Feature Flagのローカル既定値(未使用)
+features: {}
